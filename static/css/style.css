@@ -40,7 +40,7 @@ td div { position: absolute }
 
 @media screen and (max-width: 768px) {
 	#analysis, .table {
-		width: 80%;
+		width: 100%;
 	}
 }
 
