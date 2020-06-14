@@ -50,7 +50,7 @@ function update(){
 	cells[8].innerHTML = "<strong>" + (sqr[8] ? sqr[8]: "Нет") + "</strong><br> Розум";
 
 	let anal = document.getElementById("analysis").children;
-	anal[1].innerText = "Характер: " + (sqr[0] ? sqr[0]:"Нет 1") + " - " + decoder[sqr[0] ? sqr[0]: "01"];
+	anal[1].innerText = (sqr[0] ? sqr[0]:"Нет 1") + " - " + decoder[sqr[0] ? sqr[0]: "01"];
 	anal[3].innerText = (sqr[3] ? sqr[3]:"Нет 2") + " - " + decoder[sqr[3] ? sqr[3]: "02"];
 	anal[5].innerText = (sqr[6] ? sqr[6]:"Нет 3") + " - " + decoder[sqr[6] ? sqr[6]: "03"];
 	anal[7].innerText = (sqr[1] ? sqr[1]:"Нет 4") + " - " + decoder[sqr[1] ? sqr[1]: "04"];

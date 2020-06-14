@@ -1,0 +1,1 @@
+gunicorn3 main:app -w 1 --threads 10 -b 0.0.0.0:1337
